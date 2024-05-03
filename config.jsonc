@@ -1,0 +1,14 @@
+{
+    "layer": "top",
+    "modules-left": [],
+    "modules-center": [],
+    "modules-right": ["battery", "clock"],
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "clock": {
+	"format": "{:%I:%M %p}",
+        "format-alt": "{:%b %d, %a %I:%M %p}"
+    }
+}
